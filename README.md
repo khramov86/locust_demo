@@ -23,7 +23,7 @@ locust -f http_ping.py --host http://192.168.120.142:80
 http://localhost:8089/
 
 Для работы из консоли
-locust -f http_ping.py --host http://192.168.120.142:80 --no-web -c 100 -r 100
+locust -f http_ping.py --host http://192.168.120.142:80 --no-web -c 100 -r 100 -n 5000
 
 
 ##Some links
