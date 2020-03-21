@@ -53,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584773511750</updated>
-      <workItem from="1584773523163" duration="6072000" />
+      <workItem from="1584773523163" duration="6105000" />
     </task>
     <task id="LOCAL-00001" summary="readme change">
       <created>1584775120378</created>
@@ -83,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584781835016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Description edit">
+      <created>1584781873713</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1584781873713</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

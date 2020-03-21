@@ -5,15 +5,18 @@
 Основные сущности в locust
 
 Locust - Один экземпляр саранчи из роя, налетающий на ваш сервер и мучающий его,
+
 жвиет в gevent гринлете
 
 TaskSet - "мозг" саранчи, набор из функций (классов) Python, которые выполняют работу
+
 по симуляции нагрузки на сервер
 
 #####Чтобы использовать скрипт
 pip install locust
 
 ###Выполнение простого теста
+
 выполнить:
 
 locust -f http_ping.py --host http://192.168.120.142:80
@@ -23,12 +26,15 @@ locust -f http_ping.py --host http://192.168.120.142:80
 http://localhost:8089/
 
 Для работы из консоли
+
 locust -f http_ping.py --host http://192.168.120.142:80 --no-web -c 100 -r 100 -n 5000
 
 ###Описание подготовки веб-сервера
+
 https://github.com/khramov86/locust_demo/blob/master/DEPLOY.md
 
 ##Some links
+
 https://docs.locust.io/en/stable/writing-a-locustfile.html
 
 https://github.com/drednout/locust_on_meetup
