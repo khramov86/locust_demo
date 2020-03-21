@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d603db0b-ab8e-4806-b6c2-105440787a4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/http_simulate_news_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/say_hello.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_ping.py" beforeDir="false" afterPath="$PROJECT_DIR$/http_ping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEPLOY.md" beforeDir="false" afterPath="$PROJECT_DIR$/DEPLOY.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584773511750</updated>
-      <workItem from="1584773523163" duration="6918000" />
+      <workItem from="1584773523163" duration="7982000" />
     </task>
     <task id="LOCAL-00001" summary="readme change">
       <created>1584775120378</created>
@@ -114,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584782274335</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Clone some py-files">
+      <created>1584782728599</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584782728599</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme change" />
     <MESSAGE value="Description edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Description edit" />
+    <MESSAGE value="Clone some py-files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clone some py-files" />
   </component>
 </project>

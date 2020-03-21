@@ -35,7 +35,7 @@ apt-get install nginx-full apache2-utils
 
 /etc/init.d/nginx restart
 ######Проверить nginx
-http://docker:82/
+http://hostname_of_dockerhost:port_mapped/
 
 
 внутри контейнера добавить
@@ -59,4 +59,17 @@ service nginx reload
 Проверить внутри контейнера
 
 curl --user test:test -v -XGET http://localhost:80/news
+##Контейнер в docker hub
+Выйти из конейнера
+
+В общем виде команды
+docker commit container_id
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
+
+Если машина не была авторизована на docker-hub, то
+docker login
+docker push khramov86/locusttest:tagname
+
+
  
