@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not py-files
+
+!*.py
+!.README.md
+# ...even if they are in subdirectories
+#!*/
