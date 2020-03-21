@@ -33,6 +33,15 @@ locust -f http_ping.py --host http://targethost:80 --no-web -c 100 -r 100 -n 500
 
 https://github.com/khramov86/locust_demo/blob/master/DEPLOY.md
 
+Тестирование сервера
+
+locust -f http_simulate_news_app.py --host http://docker:84
+locust -f http_simulate_news_app.py --host http://docker:84  --no-web -c 100 -r 100 -n 5000
+
+
+
+
+
 ##Some links
 
 https://docs.locust.io/en/stable/writing-a-locustfile.html
