@@ -71,5 +71,7 @@ docker push new-repo:tagname
 docker login
 docker push khramov86/locusttest:tagname
 
-
+Пример запуска:
+docker run -it -p 84:80 khramov86/locusttest /bin/bash
+/etc/init.d/nginx start
  

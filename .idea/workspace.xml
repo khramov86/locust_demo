@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584773511750</updated>
-      <workItem from="1584773523163" duration="7982000" />
+      <workItem from="1584773523163" duration="8487000" />
     </task>
     <task id="LOCAL-00001" summary="readme change">
       <created>1584775120378</created>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584782728599</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Description edit">
+      <created>1584784474520</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1584784474520</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,8 +145,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme change" />
-    <MESSAGE value="Description edit" />
     <MESSAGE value="Clone some py-files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clone some py-files" />
+    <MESSAGE value="Description edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Description edit" />
   </component>
 </project>
