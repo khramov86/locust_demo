@@ -25,6 +25,8 @@ http://localhost:8089/
 Для работы из консоли
 locust -f http_ping.py --host http://192.168.120.142:80 --no-web -c 100 -r 100 -n 5000
 
+###Описание подготовки веб-сервера
+https://github.com/khramov86/locust_demo/blob/master/DEPLOY.md
 
 ##Some links
 https://docs.locust.io/en/stable/writing-a-locustfile.html
