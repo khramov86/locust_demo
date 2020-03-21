@@ -8,3 +8,4 @@
 !.jpg
 # ...even if they are in subdirectories
 #!*/
+/venv/
