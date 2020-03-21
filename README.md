@@ -19,7 +19,7 @@ pip install locust
 
 выполнить:
 
-locust -f http_ping.py --host http://192.168.120.142:80
+locust -f http_ping.py --host http://target_hostname:80
 
 зайти на:
 
