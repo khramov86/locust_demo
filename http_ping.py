@@ -1,4 +1,4 @@
-from locust import  HttpLocust, TaskSet, task
+from locust import HttpLocust, TaskSet, task
 
 class HttpPingTasks(TaskSet):
     @task
