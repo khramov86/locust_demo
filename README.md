@@ -1,7 +1,7 @@
-##Locust notes from different courses and videos
+## Locust notes from different courses and videos
 
 
-###Описание
+### Описание
 Основные сущности в locust
 
 Locust - Один экземпляр саранчи из роя, налетающий на ваш сервер и мучающий его,
@@ -12,10 +12,10 @@ TaskSet - "мозг" саранчи, набор из функций (класс�
 
 по симуляции нагрузки на сервер
 
-#####Чтобы использовать скрипт
+##### Чтобы использовать скрипт
 pip install locust
 
-###Выполнение простого теста
+### Выполнение простого теста
 
 выполнить:
 
@@ -29,7 +29,7 @@ http://localhost:8089/
 
 locust -f http_ping.py --host http://targethost:80 --no-web -c 100 -r 100 -n 5000
 
-###Описание подготовки веб-сервера
+### Описание подготовки веб-сервера
 
 https://github.com/khramov86/locust_demo/blob/master/DEPLOY.md
 
@@ -42,13 +42,12 @@ locust -f http_simulate_news_app.py --host http://docker:84  --no-web -c 100 -r 
 
 
 
-##Some links
+## Some links
 
 https://docs.locust.io/en/stable/writing-a-locustfile.html
 
 https://github.com/drednout/locust_on_meetup
 
-##Courses used
-
+## Material used
 https://www.youtube.com/watch?v=65Xa__DMhAw
  
